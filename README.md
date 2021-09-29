@@ -1,26 +1,26 @@
 # lobTakeHome
 
-## to install all dependencies
-### run 'npm install' in the projects directory
+### To install all dependencies
+#### Execute 'npm install' in the projects directory
 
-#### to start the server in delopment mode (restarts server whenever changes are made)
-##### execute "npm run start-dev" in the terminal
-#### to start the server in production mode
-##### execute "npm run start-prod" in the terminal
+### to start the server in delopment mode (restarts server whenever changes are made)
+##### Execute "npm run start-dev" in the projects directory
+### to start the server in production mode
+##### Execute "npm run start-prod" in the projects directory
 
-#### endpoints
-#### http://localhost:8080/request
+#### Endpoints
+#### http://localhost:8080/searchAddresses
 
-##### accepts a post request followed along with meta data that is used for the search in JSON file
-##### data that is sent through the request should be JSON structured with the key 'data' and the value being what you wish to query
+##### Accepts a post request followed along with meta data that is used for the search in JSON file
+##### Data that is sent through the request should be JSON structured with the key 'data' and the value being what you wish to query
 
-###### ex -> post(http://localhost:8080/request, {'data' : 'query goes here'})
+###### Example -> post(http://localhost:8080/searchAddresses, {'data' : 'query goes here'})
 
 #### http://localhost:8080/createAddress
 
-##### accepts a post request followed along with meta data that you wish to add to JSON file /temp database
-##### data that is sent through the request should be JSON structured with the key 'data' and the value being what you wish to add
+##### Accepts a post request followed along with meta data that you wish to add to JSON file /temp database
+##### Data that is sent through the request should be JSON structured with the key 'data' and the value being what you wish to add
 
-###### ex -> post(http://localhost:8080/request, {'data' : 'new address goes here'})
+###### Example -> post(http://localhost:8080/createAddress, {'data' : 'new address goes here'})
 
 
